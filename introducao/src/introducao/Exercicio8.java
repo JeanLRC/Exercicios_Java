@@ -7,20 +7,22 @@
  */
 
 package introducao;
+
 import java.util.Scanner;
+
 public class Exercicio8 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		double cusFab, cusFin, percDis, imp;
 		System.out.println("Entre com o custo de fábrica do veiculo: R$");
 		cusFab = in.nextDouble();
-		
-		percDis =cusFab*0.28;
-		imp = cusFab*0.45;
-		
+
+		percDis = cusFab * 0.28;
+		imp = cusFab * 0.45;
+
 		cusFin = cusFab + percDis + imp;
-		
-		System.out.println("O custo do veiculo para o consumidor é: R$"+cusFin);
+
+		System.out.println("O custo do veiculo para o consumidor é: R$" + cusFin);
 		in.close();
 	}
 

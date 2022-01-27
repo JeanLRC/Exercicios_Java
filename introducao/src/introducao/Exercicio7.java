@@ -6,9 +6,11 @@
  */
 
 package introducao;
+
 import java.util.Scanner;
+
 public class Exercicio7 {
-	
+
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		double a, b, c, d, e, f, x, y;
@@ -19,11 +21,11 @@ public class Exercicio7 {
 		d = in.nextDouble();
 		e = in.nextDouble();
 		f = in.nextDouble();
-		
-		x = (c*e-b*f)/(a*e-b*d);
-		y = (a*f-c*d)/(a*e-b*d);
-		System.out.println("O valor de X é: "+x);
-		System.out.println("E o valor de Y é: "+y);
+
+		x = (c * e - b * f) / (a * e - b * d);
+		y = (a * f - c * d) / (a * e - b * d);
+		System.out.println("O valor de X é: " + x);
+		System.out.println("E o valor de Y é: " + y);
 		in.close();
 	}
 

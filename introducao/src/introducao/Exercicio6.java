@@ -5,6 +5,7 @@
  */
 
 package introducao;
+
 import java.util.Scanner;
 
 public class Exercicio6 {
@@ -17,8 +18,8 @@ public class Exercicio6 {
 		System.out.println("Agora digite as coordenadas de destino: ");
 		x2 = in.nextDouble();
 		y2 = in.nextDouble();
-		Dist = Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1, 2));
-		System.out.println("A distância entre os pontos é: "+Dist);
+		Dist = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+		System.out.println("A distância entre os pontos é: " + Dist);
 		in.close();
 	}
 

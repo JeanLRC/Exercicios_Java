@@ -23,7 +23,7 @@ public class Exercicio4 {
 		int f = 0, m = 0, o = 0, c = 0, n = 0, a = 0;
 		Scanner leia = new Scanner(System.in);
 
-		while (x <= 5) {
+		while (x <= 150) {
 			System.out.println("\tIndice da " + x + "ª pessoa!");
 			System.out.println("Digite sua idade: ");
 			idade = leia.nextInt();
