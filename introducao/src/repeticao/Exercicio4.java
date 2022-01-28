@@ -82,6 +82,7 @@ public class Exercicio4 {
 		System.out.println("O número de outros calmos é: " + oC);
 		System.out.println("O número de pessoas com mais de 40 anos nervosas é: " + nMa40);
 		System.out.println("O número de pessoas com menos de 18 anos calmas é: " + cMe18);
+		leia.close();
 	}
 
 }

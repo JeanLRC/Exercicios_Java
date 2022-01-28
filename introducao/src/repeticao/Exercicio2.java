@@ -10,6 +10,7 @@ public class Exercicio2 {
 
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
+
 		int x, par = 0, imp = 0, n;
 
 		for (x = 0; x < 10; x++) {
@@ -21,8 +22,7 @@ public class Exercicio2 {
 				imp++;
 			}
 		}
-		leia.close();
 		System.out.println("Dos números informados: " + par + " eram par e " + imp + " eram impares.");
-
+		leia.close();
 	}
 }
