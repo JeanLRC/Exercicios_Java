@@ -12,6 +12,9 @@ public class SaidaPE {
 
 		ProdutoEletronico PE1 = new ProdutoEletronico();
 
+		PE1.eletronico = "Radio";
+		PE1.valEl = 300;
+
 		PE1.Status();
 
 	}
